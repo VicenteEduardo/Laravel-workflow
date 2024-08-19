@@ -19,5 +19,7 @@ jobs:
         uses: ./.github/actions/conf-laravel
       - name: Run PHPUnit
         run: ./vendor/bin/phpunit
+      - name: Run PHP_CodeSniffer
+        run: ./vendor/bin/phpcs
 
 
