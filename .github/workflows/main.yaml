@@ -15,3 +15,7 @@ jobs:
 
       - name: Run Composer Action
         uses: ./.github/actions/composer
+      - name: Build laravel
+        uses: ./.github/actions/conf-laravel
+
+
