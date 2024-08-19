@@ -1,7 +1,0 @@
-name: 'Composer Install'
-description: 'Run Composer in a PHP Docker container'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-branding:
-  icon: 'download'

@@ -1,0 +1,6 @@
+name: 'composer install'
+description: 'Runs php composer'
+runs:
+    using: 'Docker'
+    image: 'DockerFile'
+
