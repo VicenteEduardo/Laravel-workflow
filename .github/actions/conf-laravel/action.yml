@@ -1,0 +1,5 @@
+name: 'Composer Install and Laravel Setup'
+description: 'Sets up Laravel environment and installs dependencies'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
