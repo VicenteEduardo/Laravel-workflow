@@ -19,5 +19,5 @@ jobs:
       - name: Run PHPUnit
         run: ./vendor/bin/phpunit
       - name: Run PHP_CodeSniffer
-        run: ./vendor/bin/phpcbf app/
+        run: ./vendor/bin/phpcs app/
 
