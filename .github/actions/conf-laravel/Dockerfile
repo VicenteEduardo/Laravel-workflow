@@ -1,4 +1,4 @@
-FROM php:7.3-cli-alpine
+FROM php:7.4-cli-alpine
 
 # Copie o script de entrada para o container
 COPY entrypoint.sh /entrypoint.sh
